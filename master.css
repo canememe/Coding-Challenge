@@ -1,0 +1,92 @@
+body {
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-top: 30px;
+    
+}
+
+#grey_area {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #321f1fa4;
+    border-radius: 25px;
+    padding-bottom: 120px;
+}
+
+header {
+    text-align: center;
+    color: #00dd00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 20%;
+    position: relative;
+    transform: translate(0%, 50%);
+}
+
+h1 {
+    position: relative;
+    transform: translate(0%, 50%);
+}
+
+nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    background-color: #00dd00;
+    text-align: center;
+}
+
+main > div {
+    margin-left: 10%;
+    color: white;
+}
+
+p {
+    height: 3px;
+}
+
+span {
+    position: absolute;
+    transform: translate(0%, 60%);
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    transform: translate(-20%, 70%);
+    display: inline-block;
+    
+}
+
+.Via::before {
+    content: "\0021A6";
+}
+
+.Monopattino1>:last-child {
+    background-color: #f5b453;
+    width: 40%;
+    size: 20px;
+    border-radius: 5px;
+    height: 3vh;
+}
+
+.Monopattino2>:last-child {
+    background-color: #1ec31e;
+    width: 60%;
+    size: 20px;
+    border-radius: 5px;
+    height: 3vh;
+}
+
+.Monopattino3>:last-child {
+    background-color: #be4141;
+    width: 20%;
+    size: 20px;
+    border-radius: 5px;
+    height: 3vh;
+}
